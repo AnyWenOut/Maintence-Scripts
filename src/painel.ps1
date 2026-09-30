@@ -9,7 +9,7 @@ if (-NOT $isAdmin) {
     exit
 }
 
-$baseUrl = "https://tinyurl.com/maintence-scripts"
+$baseUrl = "https://tinyurl.com/maintence-scripts/tree/main"
 irm "$baseUrl/lib/funcoes.ps1" | iex
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
